@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign UP</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/669ff434e8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class="sign-up-form">
+    <form onsubmit="validation()">
+      <i class="fa-solid fa-xmark" id="icon" ></i>
+      <h1>Sign Up</h1>
+      <h6>It's quick and easy</h6>
+      <div>
+        <input type="text" name="" placeholder="First Name" id="fname">
+        <input type="text" name="" placeholder="Last Name" id="lname">
+      </div>
+      <input type="email" name="emil" placeholder="Mobile number or email" id="mail">
+      <input type="password" name="" placeholder="New Password" id="pass">
+  
+      <h6>Birthday</h6>
+      <select name="day" id="day">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+      </select>
+      <select name="month" id="month">
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+      </select>
+      <select name="year" id="year">
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+      </select>
+      <h6>Gender</h6>
+      <div>
+        <span>
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female">
+        </span>
+        <span>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male">
+        </span>
+        <span>
+          <label for="custom">Custom</label>
+          <input type="radio" name="gender" id="custom">
+        </span>
+      </div>
+      <p>People who use our service may have uploaded your contact information to Facebook. <a href="">Learn more</a>.</p>
+      <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+      <a href="index.html">
+        <input type="submit" value="Sign Up">
+      </a>
+    </form>
+  </section>
+
+
+
+  <script src="main.js"></script>
+</body>
+</html>
