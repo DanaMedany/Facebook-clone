@@ -34,7 +34,7 @@ section .table {
   width:100%;
   padding: 8px 5px;
   border-radius: 3px;
-  margin-bottom: 5px;
+  margin-bottom: 15px;
   border: 2px solid #dddfe2;
   direction: rtl;
   font-weight: bold;
@@ -51,14 +51,14 @@ section .table {
   display: inline-block;
 }
 .table form a:nth-child(3) {
-  margin-top: 12px;
-  width: 100%;
+  display: block;
   text-align: center;
-  text-decoration: none;
   padding: 8px;
   background-color: #3578e5;
-  display: inline-block;
   color: white;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  border: none;
 }
 .table form a:nth-child(5) {
   margin-top: 13px;
@@ -69,7 +69,7 @@ section .table {
   color: white;
   display: inline-block;
 }
-.table form a:nth-child(5):hover, 
+.table form a:nth-child(5):hover,
 .table form a:nth-child(3):hover {
   box-shadow: 5px 5px 18px black;
   transform: scale(1.1);
